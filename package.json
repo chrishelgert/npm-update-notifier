@@ -1,0 +1,38 @@
+{
+  "name": "npm-update-notifier",
+  "version": "1.0.0",
+  "description": "Notifies when a new version from a npm-dependency is published",
+  "main": "cli.js",
+  "scripts": {
+    "test": "xo --esnext --space && ava"
+  },
+  "bin": {
+    "nun": "cli.js",
+    "npm-update-notifier": "cli.js"
+  },
+  "files": [
+    "cli.js"
+  ],
+  "keywords": [
+    "npm",
+    "update",
+    "notify",
+    "cli"
+  ],
+  "author": {
+    "name": "ChrisHelgert",
+    "email": "chris.helgert@webdeveloperco.de"
+  },
+  "repository": "chrishelgert/npm-update-notifier",
+  "license": "MIT",
+  "dependencies": {
+    "latest-version": "^2.0.0",
+    "meow": "^3.7.0",
+    "node-notifier": "^4.5.0",
+    "update-notifier": "^0.6.0"
+  },
+  "devDependencies": {
+    "ava": "^0.12.0",
+    "xo": "^0.12.1"
+  }
+}
