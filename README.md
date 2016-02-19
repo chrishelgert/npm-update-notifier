@@ -2,6 +2,8 @@
 
 > Show all outdated dependencies for your package.json
 
+[![npm version](https://badge.fury.io/js/npm-update-notifier.svg)](https://badge.fury.io/js/npm-update-notifier)
+
 ## Install
 
 ```bash
