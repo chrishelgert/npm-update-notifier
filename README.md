@@ -24,6 +24,8 @@ Show all outdated dependencies for your package.json.
     --console, output only in console
   Example
     nun ./package.json
+    nun /Volumes/project/package.json
+    nun ./project1/package.json ./project2/package.json
 ```
 
 ## Todo

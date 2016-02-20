@@ -5,6 +5,7 @@ const meow = require('meow');
 const latestVersion = require('latest-version');
 const notifier = require('node-notifier');
 const updateNotifier = require('update-notifier');
+var path = require('path');
 
 const nunPackage = require('./package.json');
 
@@ -119,9 +120,10 @@ function check(files, useConsole, callback) {
   console.log('----------------------------');
 
   files.forEach(el => {
-    clearRequireCache(el);
+    const packageFile = path.isAbsolute(el) ? el : path.join(process.cwd(), el);
+    clearRequireCache(packageFile);
 
-    const pkg = require(el);
+    const pkg = require(packageFile);
     const promises = checkForPackage(pkg);
 
     Promise.all(promises).then(values => {
