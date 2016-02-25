@@ -4,14 +4,15 @@
   "description": "Notifies when a new version from a npm-dependency is published",
   "main": "cli.js",
   "scripts": {
-    "test": "xo --esnext --space && ava"
+    "test": "xo && ava"
   },
   "bin": {
     "nun": "cli.js",
     "npm-update-notifier": "cli.js"
   },
   "files": [
-    "cli.js"
+    "cli.js",
+    "src"
   ],
   "keywords": [
     "npm",
@@ -34,5 +35,12 @@
   "devDependencies": {
     "ava": "^0.12.0",
     "xo": "^0.12.1"
+  },
+  "xo": {
+    "esnext": true,
+    "space": true
+  },
+  "ava": {
+    "verbose": true
   }
 }
