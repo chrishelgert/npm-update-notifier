@@ -15,12 +15,15 @@ const cli = meow(`
   Usage
     $ nun <package-file>
   Options
-    --interval, interval for checking updates
+    --interval, interval for checking updates (in ms, default: hourly)
     --console, output only in console
   Example
     nun ./package.json
     nun /Volumes/project/package.json
     nun ./project1/package.json ./project2/package.json
+    nun ./package.json --interval
+    nun ./package.json --interval 360000
+    nun .package.json --console
 `);
 
 const flags = cli.flags;
