@@ -28,10 +28,6 @@ Show all outdated dependencies for your package.json.
     nun ./project1/package.json ./project2/package.json
 ```
 
-## Todo
-
-* Tests with ava
-
 ## Contributing
 
 1. Fork it
