@@ -19,6 +19,13 @@ function notifyDependency(project, dependency, newVersion) {
   });
 }
 
+/**
+ * notify message for more outdated dependencies in one project
+ *
+ * @param  {String} project name of the project
+ * @param  {String} amount  amount of outdated dependencies
+ * @return {void}
+ */
 function notifyDependencyAmount(project, amount) {
   notifier.notify({
     title: `NPM update notifier`,
