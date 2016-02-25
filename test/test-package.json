@@ -1,0 +1,7 @@
+{
+  "name": "npm-update-notifier",
+  "devDependencies": {
+    "ava": "^0.11.0",
+    "xo": "^0.12.1"
+  }
+}
