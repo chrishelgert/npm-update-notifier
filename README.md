@@ -1,6 +1,6 @@
 # npm-update-notifier
 
-[![npm version](https://badge.fury.io/js/npm-update-notifier.svg)](https://badge.fury.io/js/npm-update-notifier)
+[![npm version](https://badge.fury.io/js/npm-update-notifier.svg)](https://badge.fury.io/js/npm-update-notifier) [![Build Status](https://travis-ci.org/chrishelgert/npm-update-notifier.svg?branch=master)](https://travis-ci.org/chrishelgert/npm-update-notifier)
 
 Show all outdated dependencies for your package.json.
 
