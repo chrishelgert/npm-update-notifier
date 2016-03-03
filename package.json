@@ -26,6 +26,9 @@
   },
   "repository": "chrishelgert/npm-update-notifier",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chrishelgert/npm-update-notifier/issues"
+  },
   "dependencies": {
     "latest-version": "^2.0.0",
     "meow": "^3.7.0",
