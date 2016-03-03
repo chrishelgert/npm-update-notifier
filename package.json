@@ -30,7 +30,7 @@
     "latest-version": "^2.0.0",
     "meow": "^3.7.0",
     "node-notifier": "^4.5.0",
-    "update-notifier": "^0.6.0"
+    "update-notifier": "^0.6.1"
   },
   "devDependencies": {
     "ava": "^0.12.0",
