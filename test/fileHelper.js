@@ -21,7 +21,7 @@ if (isWindows) {
 test('filterPackageFiles', t => {
   const result = fileHelper.filterPackageFiles(files);
   const expected = ['../package.json'];
-  t.same(expected, result);
+  t.deepEqual(expected, result);
 });
 
 test('resolvePaths', t => {
@@ -37,5 +37,5 @@ test('resolvePaths', t => {
     expected.push(unixFile);
   }
 
-  t.same(expected, result);
+  t.deepEqual(expected, result);
 });
