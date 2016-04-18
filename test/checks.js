@@ -1,5 +1,5 @@
-const test = require('ava');
 const path = require('path');
+const test = require('ava');
 const checks = require('../src/checks');
 
 const files = [path.join(__dirname, './test-package.json')];

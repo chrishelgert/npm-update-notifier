@@ -1,5 +1,5 @@
-const test = require('ava');
 const path = require('path');
+const test = require('ava');
 const fileHelper = require('../src/fileHelper');
 
 const isWindows = /^win/.test(process.platform);
