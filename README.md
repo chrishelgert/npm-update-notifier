@@ -41,4 +41,4 @@ Show all outdated dependencies for your package.json.
 
 ## License
 
-Copyright (c) 2016 Chris Helgert. See [LICENSE](./LICENSE) for details.
+Copyright (c) 2016-2017 Chris Helgert. See [LICENSE](./LICENSE) for details.
