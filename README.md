@@ -4,6 +4,8 @@
 
 Show all outdated dependencies for your package.json.
 
+:warning: DEPRECATED in favor for [Greenkeeper](https://github.com/apps/greenkeeper) and all the other wonderful tools :warning:
+
 ## Install
 
 ```bash
